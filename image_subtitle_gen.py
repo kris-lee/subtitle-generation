@@ -287,8 +287,7 @@ if __name__ == '__main__':
 	str_max = 15
 
      
-	##fonttype parameter
-	
+	##fonttype parameter	
 	fonttype = {'simfang.ttf':'fangsong', 'STXINGKA.TTF':'huawen_xingkai', 'simkai.ttf':'kaiti',\
 	 'STXINWEI.TTF':'huawen_xinwei', 'simsun.ttc':'songti', 'SIMLI.TTF':'lvshu', 'simhei.ttf':'heiti'}
 	fonttype_num = len(fonttype)	
@@ -320,11 +319,13 @@ if __name__ == '__main__':
 	shift_max = 5
 	sh_shift = random.randint(shift_min, shift_max)
 
+
 	#bs_color = (100,100,100) # black shadow
 	ws_color = (0xf0,0xf0,0xf0) # white shadow
 
+
 	colorlist=[(0xff,0xff,0xff),(0xff,0,0),(0x00,0xff,0x00),(0x00,0x00,0xff),(0x00,0x00,0x00)]
-	#colorlist=[(255,0,0)]
+
 
 	tm_start = datetime.datetime.now()
 	mu.mkdir(data_path)

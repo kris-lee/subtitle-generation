@@ -1,3 +1,8 @@
+# code for batch generating simple subtitle of TV players and Movies
+# auth : Li zhichao
+# data : 2016-11-1
+# than : liuyuming for guiding entire process and Zhu hongji for providing myutil.py
+
 # -*- coding:utf-8 -*-
 import os,sys
 import os,shutil
